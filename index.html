@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/3d6a5db848.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <!-- <div class="container"> -->
+    <nav>
+      <img src="suraj logo.png" class="logo" />
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa fa-times icon-item" id="" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa fa-bars icon-item" onclick="openmenu()"></i>
+    </nav>
+  </div>
+  <div class="header_container">
+    <div class="header-text">
+      <p><b>A WEB DEVELOPER</b></p>
+      <h2>
+        Hi, I am<span> Suraj Kumar Gupta</span>
+        from Gorakhpur
+      </h2>
+    </div>
+    <div class="header-img non-mobile">
+      <!-- <div class="imgbg"></div> -->
+      <img src="avatar_suraj.png" class="img" />
+    </div>
+  </div>
+  <!-- </div> -->
+  <!-- </div> -->
+  <!----------------------ABOUT----------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Suraj img.jpg" />
+        </div>
+        <div class="about-col-2">
+          <h2 class="sub-title">About Me</h2><br />
+          <p>
+            I am a Web Developer , I am a novice with rudimentary knowledge in
+            this sphere. I am a diligent and a smart worker . I always try my
+            best to learn and unfold the mysteries of the mind-boggling world
+            of Web Development . I am a passionate learner , I have a passion
+            to learn new things. As of now , I am fully focused on Web
+            Development and I come up with great ideas and I try my best to
+            bring them to reality .
+          </p>
+          <br><br>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+            <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+            <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+          </div>
+          <br />
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Front End Developer</span><br>Designing Websites</li>
+              <li><span>Data Science Enthusiast</span><br>Data Science Enthusiast</li>
+              <li><span>Programming Language</span><br>Python</li>
+              <li><span>Database</span><br>MYSQL</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Upcoming Intern At</span><br />NONE</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2017 </span><br>High School At Alma Mater the School<br>Aggregate 89.3%</li>
+              <li><span>2019 </span><br>Senior Secondary School At Alma Mater the school<br>Aggregate 77.80%</li>
+              <li><span>2020- Present</span><br>Bachelor's Of Technology At ABES Engineering College <br>Aggregate 74.57%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------SERVICES--------------------- -->
+  <div id="services">
+    <div class="container">
+      <h2 class="sub-title">My Services</h2>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Designing</h2>
+          <p>
+            <br/>
+            Web designing is the skill of creating visually appealing and
+            user-friendly websites that effectively communicate the intended
+            message or purpose. It encompasses a broad range of tasks,
+            including layout design, graphic design, and front-end
+            development. Web design skills are in high demand across various
+            industries, including e-commerce, education, healthcare, and
+            entertainment.
+          </p>
+          <br/>
+          <a href="#">Explore</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h2>Video Editing</h2>
+          <p>
+            <br />
+            Video editing is a valuable skill that involves manipulating and
+            rearranging video footage to create a cohesive and compelling
+            story. It is an essential part of the post-production process and
+            can significantly impact the final product's quality. Video
+            editing skills can be useful in a variety of industries, including
+            film and television, advertising, marketing, social media, and
+            education.
+          </p>
+          <br />
+          <a href="#">Explore</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-hands"></i>
+          <h2>Graphic Designing</h2>
+          <p>
+            <br />
+            Graphic editing is another valuable skill that involves
+            manipulating and creating visual content using digital tools. It
+            encompasses a wide range of tasks, including photo editing,
+            graphic design, and digital illustration. Graphic editing skills
+            are essential in various industries, including advertising,
+            marketing, web design, and publishing. In today's digital age,
+            businesses need visually appealing graphics to attract and engage
+            their target audience.
+          </p>
+          <br />
+          <a href="#">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------------------------------------Portfolio-------------------------------------------------------------------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h2 class="sub-title">My Projects</h2>
+      <div class="work-list">
+        <div class="work">
+          <img src="img3.png" />
+          <div class="layer">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              This Chat bot interacts with the user based on certain
+              behavioral pattern.
+            </p>
+            <a href="https://github.com/suraj2207/Personal-Portfolio-Website">
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="img2.jpg" />
+          <div class="layer">
+            <h3>Online Library Management System</h3>
+            <p>
+              This website help libraries keep track of their documents and
+              manages books and save times
+            </p>
+            <a href="https://github.com/suraj2207/Online-Library-Management-System.git">
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn"> See More </a>
+    </div>
+  </div>
+  <!------------------------------Contact---------- -->
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h2 class="sub-title">Contact Me</h2>
+          <p><i class="fa-solid fa-paper-plane"></i> sgupta1642@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 9936073630</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/suraj-gupta-11b19b243"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/suraj2207"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="https://drive.google.com/file/d/1dO6sTwLRiN1PiVPAbompHnqSvHejmX-Z/view?usp=share_link" download class="btn btn2">Download CV</a></div>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Enter Your Name" required />
+            <input type="text" name="Email" placeholder="Enter Your E-Mail" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright @Suraj Gupta . Made With
+        <i class="fa-solid fa-heart"></i> By Suraj Kumar Gupta
+      </p>
+    </div>
+  </div>
+  <!------------------------------Mouse Pointer Javascript---------- -->
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+  <script src="script.js"></script>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    var tablinks = document.getElementsByClassName("tab-links");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+      const scriptURL ='https://script.google.com/macros/s/AKfycbyS7NTLbSTNvpP7FzgLO7jRpWttIkaVeOxO08k0t1EkFovjzFf_3dEzRbt-WTJSd7FS/exec'
+      const form = document.forms["submit-to-google-sheet"]
+      const msg = document.getElementById("msg")
+      form.addEventListener("submit", (e) => {
+        e.preventDefault(); 
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Delievered Successfully"
+            setTimeout(function () {
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch((error) => console.error("Error!", error.message));
+      })
+  </script>
+
+</body>
+</html>
